@@ -27,6 +27,10 @@ public class Stack {
 		return list.get(list.size() - 1);
 	}
 
+	public boolean isEmpty() {
+		return list.isEmpty();
+	}
+
 	public void show() {
 		for (int i = 0; i < list.size(); i++) {
 			System.out.print(list.get(i) + "->");
