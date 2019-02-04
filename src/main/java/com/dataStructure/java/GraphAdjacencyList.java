@@ -13,7 +13,6 @@ public class GraphAdjacencyList {
 			neighbours.add(23);
 			adjList.put(i, neighbours);
 		}
-
 	}
 
 	public void addEdge(int v, int w) {
