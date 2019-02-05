@@ -1,6 +1,5 @@
 package com.dataStructure.java;
 
-import java.nio.file.WatchService;
 import java.util.Stack;
 
 class GraphAdjMat {
@@ -16,6 +15,8 @@ class GraphAdjMat {
 		adjMat = new int[MAX_VERTS][MAX_VERTS];
 		num_of_vertx = 0;
 		stack = new Stack<Integer>();
+		
+		
 	}
 
 	public void addVertex(char label) {
@@ -56,6 +57,8 @@ class GraphAdjMat {
 			}
 		}
 	}
+	
+	
 }
 
 class Vertices {
