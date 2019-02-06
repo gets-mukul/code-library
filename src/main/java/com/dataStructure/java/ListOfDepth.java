@@ -27,7 +27,7 @@ public class ListOfDepth {
 		ArrayList<LinkedList<Integer>> array = new ArrayList<>();
 
 		while (true) {
-			
+
 			while (!q1.isEmpty()) {
 				TreeNode temp;
 				temp = q1.peek();
@@ -43,10 +43,10 @@ public class ListOfDepth {
 
 				q1.remove();
 			}
-			
+
 			count++;
 			System.out.println();
-			
+
 			while (!q2.isEmpty()) {
 				TreeNode temp;
 				temp = q2.peek();
