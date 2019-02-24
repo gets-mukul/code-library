@@ -7,7 +7,7 @@ class Tower {
 	int index;
 
 	Tower(int i) {
-		disks = new Stack<>();
+		disks = new Stack<Integer>();
 		index = i;
 	}
 

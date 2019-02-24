@@ -18,13 +18,13 @@ public class ListOfDepth {
 		root.right.left = new TreeNode(5);
 		root.right.right = new TreeNode(4);
 
-		Queue<TreeNode> q1 = new LinkedList<>();
-		Queue<TreeNode> q2 = new LinkedList<>();
+		Queue<TreeNode> q1 = new LinkedList<TreeNode>();
+		Queue<TreeNode> q2 = new LinkedList<TreeNode>();
 
 		q1.add(root);
 		int count = 0;
 
-		ArrayList<LinkedList<Integer>> array = new ArrayList<>();
+		ArrayList<LinkedList<Integer>> array = new ArrayList<LinkedList<Integer>>();
 
 		while (true) {
 

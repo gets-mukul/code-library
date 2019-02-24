@@ -29,7 +29,7 @@ public class VaidateBST {
 		root.right.left = new TreeNode(14);
 		root.right.right = new TreeNode(19);
 
-		ArrayList<Integer> array = new ArrayList<>();
+		ArrayList<Integer> array = new ArrayList<Integer>();
 		checkForBST(root, array);
 		System.out.println(array);
 

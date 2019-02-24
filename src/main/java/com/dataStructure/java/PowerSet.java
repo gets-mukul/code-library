@@ -16,7 +16,7 @@ public class PowerSet {
 		else {
 			allSubset = getSubet(set, index+1);
 			int item = set.get(index);
-			ArrayList<ArrayList<Integer>> moreSubset = new ArrayList<>();
+			ArrayList<ArrayList<Integer>> moreSubset = new ArrayList<ArrayList<Integer>>();
 			for(ArrayList<Integer> subset : allSubset) {
 				ArrayList<Integer> newSubset = new ArrayList<Integer>();
 				newSubset.addAll(subset);
